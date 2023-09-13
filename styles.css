@@ -31,6 +31,7 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     width: 90%;
+    overflow-x: hidden;
 
     font-family: "Poppins", system-ui, sans-serif;
     font-weight: 400;
@@ -224,6 +225,10 @@ footer {
 /* Horizontal Rule */
 
 hr {
+    /* TODO: replace with something more elegant */
+    width: 200vw;
+    margin-left: -100vw;
+
     opacity: 0.2;
     background: #4D4D4D;
 }
